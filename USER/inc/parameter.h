@@ -62,7 +62,7 @@
 
 #define USER_ROTATE_ERROR_EN      (1)  //堵转反转保护---电机1默认打开
 
-#define LIMIT_SPEED_EN                 (0)  //限速
+#define LIMIT_SPEED_EN                 (1)  //限速
 
 
 
@@ -269,7 +269,7 @@
 
 
 
-#define LIMIT_PEAK_CURRENT_EN               (0)
+#define LIMIT_PEAK_CURRENT_EN               (1)
 #define LIMIT_PEAK_CURRENT                  (110.0f)
 #define LIMIT_PEAK_CURRENT_AdcValue         (u16)(LIMIT_PEAK_CURRENT*CURRENT_ADC_PER_A)
 

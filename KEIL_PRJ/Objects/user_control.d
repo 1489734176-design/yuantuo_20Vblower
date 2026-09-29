@@ -1,35 +1,73 @@
-./objects/user_control.o: ..\USER\user_control.c \
-  ..\USER\inc\user_control.h ..\MM32SPIN0230\Include\mm32spin0230.h \
-  D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h \
-  ..\MM32SPIN0230\Include\reg_adc.h ..\MM32SPIN0230\Include\reg_comp.h \
-  ..\MM32SPIN0230\Include\reg_dbg.h ..\MM32SPIN0230\Include\reg_hwdiv.h \
-  ..\MM32SPIN0230\Include\reg_dma.h ..\MM32SPIN0230\Include\reg_exti.h \
-  ..\MM32SPIN0230\Include\reg_flash.h ..\MM32SPIN0230\Include\reg_gpio.h \
-  ..\MM32SPIN0230\Include\reg_iwdg.h ..\MM32SPIN0230\Include\reg_pwr.h \
-  ..\MM32SPIN0230\Include\reg_opamp.h ..\MM32SPIN0230\Include\reg_rcc.h \
-  ..\MM32SPIN0230\Include\reg_syscfg.h ..\MM32SPIN0230\Include\reg_tim.h \
-  ..\MM32SPIN0230\Include\reg_usart.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_conf.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_adc.h \
-  ..\MM32SPIN0230\Include\mm32_device.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_comp.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_dbg.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_hwdiv.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_dma.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_exti.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_flash.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_gpio.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_iwdg.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_misc.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_pwr.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_opamp.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_rcc.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_syscfg.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_tim.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_usart.h \
-  ..\MM32SPIN0230\HAL_Lib\inc\hal_uid.h ..\MC_CORE\mc_core.h \
-  ..\USER\inc\parameter.h ..\MM32SPIN0230\HAL_Lib\inc\HAL_device.h \
-  ..\USER\inc\board.h ..\MOTOR_CONTROL\motor_control.h \
-  ..\DRIVE\inc\drv_adc.h ..\USER\inc\flash_data_save.h \
-  ..\USER\inc\Bat_com.h ..\USER\inc\led.h ..\SYSTEM\inc\systick.h \
-  ..\MOTOR_CONTROL\motor_config.h ..\DRIVE\inc\drv_pwm.h
+.\objects\user_control.o: ..\USER\user_control.c
+.\objects\user_control.o: ..\USER\inc\user_control.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\mm32spin0230.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_adc.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_comp.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_dbg.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_hwdiv.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_dma.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_exti.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_flash.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_gpio.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_iwdg.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_pwr.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_opamp.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_rcc.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_syscfg.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_tim.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\reg_usart.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_conf.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_adc.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\mm32_device.h
+.\objects\user_control.o: ..\MM32SPIN0230\Include\mm32spin0230.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_comp.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_dbg.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_hwdiv.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_dma.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_exti.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_flash.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_gpio.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_iwdg.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_misc.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_pwr.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_opamp.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_rcc.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_syscfg.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_tim.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_usart.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\hal_uid.h
+.\objects\user_control.o: ..\MC_CORE\mc_core.h
+.\objects\user_control.o: ..\USER\inc\parameter.h
+.\objects\user_control.o: ..\MM32SPIN0230\HAL_Lib\inc\HAL_device.h
+.\objects\user_control.o: ..\USER\inc\board.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\user_control.o: ..\MOTOR_CONTROL\motor_control.h
+.\objects\user_control.o: ..\DRIVE\inc\drv_adc.h
+.\objects\user_control.o: ..\USER\inc\flash_data_save.h
+.\objects\user_control.o: ..\USER\inc\Bat_com.h
+.\objects\user_control.o: D:\Users\mym02\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\user_control.o: ..\USER\inc\led.h
+.\objects\user_control.o: ..\SYSTEM\inc\systick.h
+.\objects\user_control.o: ..\MOTOR_CONTROL\motor_config.h
+.\objects\user_control.o: ..\DRIVE\inc\drv_pwm.h

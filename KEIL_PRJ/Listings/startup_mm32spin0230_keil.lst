@@ -351,12 +351,13 @@ ARM Macro Assembler    Page 6
               00000000 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M0 --depe
-nd=.\objects\startup_mm32spin0230_keil.d -o.\objects\startup_mm32spin0230_keil.
-o -I.\RTE\_MM32SPIN0230 -ID:\Users\mym02\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.
-0\CMSIS\Core\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VER
-SION SETA 541" --predefine="_RTE_ SETA 1" --list=.\listings\startup_mm32spin023
-0_keil.lst ..\MM32SPIN0230\Source\KEIL_StartAsm\startup_mm32spin0230_keil.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
+ork --depend=.\objects\startup_mm32spin0230_keil.d -o.\objects\startup_mm32spin
+0230_keil.o -I.\RTE\_MM32SPIN0230 -ID:\Users\mym02\AppData\Local\Arm\Packs\ARM\
+CMSIS\5.9.0\CMSIS\Core\Include --predefine="__MICROLIB SETA 1" --predefine="__U
+VISION_VERSION SETA 541" --predefine="_RTE_ SETA 1" --list=.\listings\startup_m
+m32spin0230_keil.lst ..\MM32SPIN0230\Source\KEIL_StartAsm\startup_mm32spin0230_
+keil.s
 
 
 
