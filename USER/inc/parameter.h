@@ -93,7 +93,7 @@
 
 //vsp 占空比控制参数
 #define MAX_TOOL_DUTY 		                	(PWM_PRIOD_LOAD)//高电平最大占空比
-#define MIN_TOOL_DUTY 		   		 						(PWM_PRIOD_LOAD*0.15f) //电机最小占空比
+#define MIN_TOOL_DUTY 		   		 						(PWM_PRIOD_LOAD*0.12f) //电机最小占空比
 
 #define TRG_ON_ADC               						300//电机启动触发ADC
 #define MAX_TRG_ADC 		   		   						4000//电机触发最大值
@@ -184,18 +184,18 @@
 #define Block_Protect_Current1_TIME                 (80*SLOWLOOP_1ms_CNT_LOAD)/*堵转时间unit:ms*/
 
 
-#define Block_Protect_Current2                      (50.00)/*unit:a*/
+#define Block_Protect_Current2                      (55.00)/*unit:a*/
 #define Block_Protect_Current2_AdcValue             (u16)(Block_Protect_Current2*CURRENT_ADC_PER_A)
 #define Block_Protect_Current2_TIME                 (50*SLOWLOOP_1ms_CNT_LOAD)/*堵转时间unit:ms*/
 
 
-#define Block_Protect_Current3                      (55.00)/*unit:a*/
+#define Block_Protect_Current3                      (60.00)/*unit:a*/
 #define Block_Protect_Current3_AdcValue             (u16)(Block_Protect_Current3*CURRENT_ADC_PER_A)
 #define Block_Protect_Current3_TIME                 (30*SLOWLOOP_1ms_CNT_LOAD)/*堵转时间unit:ms*/
 
-#define Block_Protect_Current4                      (60.00)/*unit:a*/
+#define Block_Protect_Current4                      (70.00)/*unit:a*/
 #define Block_Protect_Current4_AdcValue             (u16)(Block_Protect_Current4*CURRENT_ADC_PER_A)
-#define Block_Protect_Current4_TIME                 (10*SLOWLOOP_1ms_CNT_LOAD)/*堵转时间unit:ms*/
+#define Block_Protect_Current4_TIME                 (20*SLOWLOOP_1ms_CNT_LOAD)/*堵转时间unit:ms*/
 
 
 
@@ -216,17 +216,17 @@
 
 
 
-	#define IBus_Smart_Peak_OCP1                      (60.00)/*unit:a*/
+	#define IBus_Smart_Peak_OCP1                      (80.00)/*unit:a*/
 	#define IBus_Smart_Peak_OCP1_AdcValue             (u16)(IBus_Smart_Peak_OCP1*CURRENT_ADC_PER_A)
 	#define IBus_Smart_Peak_OCP1_MS                   (800) //ms
 	#define IBus_Smart_OCP1_MS_Operation_Value        (u16)(32768.0f/((float)IBus_Smart_Peak_OCP1_MS*SLOWLOOP_FRE/1000.0f))
 
-	#define IBus_Smart_Peak_OCP2                      (70.00)/*unit:a*/
+	#define IBus_Smart_Peak_OCP2                      (90.00)/*unit:a*/
 	#define IBus_Smart_Peak_OCP2_AdcValue             (u16)(IBus_Smart_Peak_OCP2*CURRENT_ADC_PER_A)
 	#define IBus_Smart_Peak_OCP2_MS                   (100) //ms
 	#define IBus_Smart_OCP2_MS_Operation_Value        (u16)(32768.0f/((float)IBus_Smart_Peak_OCP2_MS*SLOWLOOP_FRE/1000.0f))
 		
-	#define IBus_Smart_Peak_OCP3                      (80.00)/*unit:a*/
+	#define IBus_Smart_Peak_OCP3                      (100.00)/*unit:a*/
 	#define IBus_Smart_Peak_OCP3_AdcValue             (u16)(IBus_Smart_Peak_OCP3*CURRENT_ADC_PER_A)
 	#define IBus_Smart_Peak_OCP3_MS                   (10) //ms
 	#define IBus_Smart_OCP3_MS_Operation_Value        (u16)(32768.0f/((float)IBus_Smart_Peak_OCP3_MS*SLOWLOOP_FRE/1000.0f))

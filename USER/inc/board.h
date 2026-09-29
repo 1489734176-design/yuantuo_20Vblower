@@ -174,7 +174,7 @@
 #define COMP_NUMBER                 COMP1
 #define COMP_NON_INVERTING          COMP_NonInvertingInput_IO3  
 #define COMP_INVERTING              COMP_InvertingInput_IO3
-#define COMP_CRV_VOLTAGE_SELECT     98													//  (x+1)/256		//6mos:98	12mos:135
+#define COMP_CRV_VOLTAGE_SELECT     118													//  (x+1)/256		//6mos:98	12mos:135
 
 #define COMP_GPIO_CLK               (RCC_AHBENR_GPIOB_Msk)
 #define COMP_INP_PORT               GPIOB
