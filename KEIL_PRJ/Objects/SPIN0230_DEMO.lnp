@@ -34,7 +34,7 @@
 ".\objects\system_mm32spin0230.o"
 ".\objects\startup_mm32spin0230_keil.o"
 ".\objects\motor_control.o"
-"..\MC_CORE\002_mc_core_V1_01.lib"
+"..\MC_CORE\002_mc_core_HS-V1_01.lib"
 --library_type=microlib --strict --scatter ".\Objects\SPIN0230_DEMO.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

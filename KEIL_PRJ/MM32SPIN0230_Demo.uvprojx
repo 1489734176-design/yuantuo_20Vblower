@@ -601,9 +601,9 @@
           <GroupName>MC_CORE</GroupName>
           <Files>
             <File>
-              <FileName>002_mc_core_V1_01.lib</FileName>
+              <FileName>002_mc_core_HS-V1_01.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\MC_CORE\002_mc_core_V1_01.lib</FilePath>
+              <FilePath>..\MC_CORE\002_mc_core_HS-V1_01.lib</FilePath>
             </File>
           </Files>
         </Group>

@@ -241,7 +241,7 @@ int main(void)
 
 					Speed_Pid.Limit_min_data= (PWM_PRIOD_LOAD*0.15f) ;
 
-					Speed_Pid.refValue=27000;
+					Speed_Pid.refValue=64200;
 
 					motor_control_list.pwm_duty_aim2=MC_PI_Handler(&Speed_Pid,motor_control_list.motor_speed);
 

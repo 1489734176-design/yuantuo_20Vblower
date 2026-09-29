@@ -418,7 +418,7 @@
 
   <Group>
     <GroupName>DRIVE</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -797,8 +797,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\MC_CORE\002_mc_core_V1_01.lib</PathWithFileName>
-      <FilenameWithoutPath>002_mc_core_V1_01.lib</FilenameWithoutPath>
+      <PathWithFileName>..\MC_CORE\002_mc_core_HS-V1_01.lib</PathWithFileName>
+      <FilenameWithoutPath>002_mc_core_HS-V1_01.lib</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
