@@ -75,7 +75,7 @@
 //  (电池通信 BAT_COM_EN 在 Bat_com.h 中；电池温度 EN_BAT_TEMP_DETECT 见下方温度段)
 //----------------------------------------------------------------------*/
 #define DIR_DETECT_EN     (0)
-#define LED_EN            (0)
+#define LED_EN            (1)
 #define PWM_DUTY_GEARS1    (u32)(32768 * 0.5f)  
 #define PWM_DUTY_GEARS2    (u32)(32768 * 0.80f)    
 #define PWM_DUTY_GEARS3    (u32)(32768 * 1.0f) 

@@ -14,7 +14,7 @@
  */
 #define LED_LIGHT_RCC_CLOCKGPIO     (RCC_AHBENR_GPIOA_Msk)
 #define LED_LIGHT_PORT              GPIOA
-#define LED_LIGHT_PIN               GPIO_Pin_10
+#define LED_LIGHT_PIN               GPIO_Pin_13
 
 #define LED_ERROR_ON()              GPIO_SetBits(LED_LIGHT_PORT, LED_LIGHT_PIN)
 #define LED_ERROR_OFF()             GPIO_ResetBits(LED_LIGHT_PORT, LED_LIGHT_PIN)

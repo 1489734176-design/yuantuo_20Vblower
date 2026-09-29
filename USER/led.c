@@ -22,6 +22,7 @@ void led_init(void)
     RCC_AHBPeriphClockCmd(LED_LIGHT_RCC_CLOCKGPIO, ENABLE);
 
     GPIO_StructInit(&GPIO_InitStruct);
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource13, GPIO_AF_1);
     GPIO_InitStruct.GPIO_Pin   = LED_LIGHT_PIN;
     GPIO_InitStruct.GPIO_Speed = GPIO_Speed_High;
     GPIO_InitStruct.GPIO_Mode  = GPIO_Mode_Out_PP;
