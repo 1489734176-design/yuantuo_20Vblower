@@ -1842,30 +1842,30 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-         4          0          0          0         68       3475   bat_com.o
-      1190         66          0          0          0       7164   board.o
-       144          0          0          0          0       1696   drv_adc.o
-       224         18          0         12          0       1843   drv_comp.o
-      1276        172          0          0          0      10426   drv_pwm.o
-       176         20          0          0         40       2764   flash_data_save.o
-      1164         18          0          0          0      12351   hal_adc.o
-       158         10          0          0          0       3491   hal_comp.o
-       194         18          0          0          0       2534   hal_exti.o
-       202          0          0          0          0       3969   hal_gpio.o
-       108         12          0          0          0       1442   hal_misc.o
-        24          0          0          0          0        872   hal_opamp.o
-        84         18          0          0          0       1690   hal_rcc.o
-       894         24          0          0          0      10307   hal_tim.o
-       464         46          0          0          0     100868   main.o
-       744        106          0          4          0      14608   mm32_it.o
-      3310        252          0         14        144      13163   motor_control.o
-        40         14        192          0       1024        680   startup_mm32spin0230_keil.o
-       240         22          0          4          0       2519   system_mm32spin0230.o
-       172         26          0          0          0       9992   systick.o
-      2192        248          0         64         76      12530   user_control.o
+         4          0          0          0         68       3531   bat_com.o
+      1190         66          0          0          0       7368   board.o
+       144          0          0          0          0       1736   drv_adc.o
+       224         18          0         12          0       1899   drv_comp.o
+      1276        172          0          0          0      10774   drv_pwm.o
+       176         20          0          0         40       2832   flash_data_save.o
+      1164         18          0          0          0      12631   hal_adc.o
+       158         10          0          0          0       3591   hal_comp.o
+       194         18          0          0          0       2610   hal_exti.o
+       202          0          0          0          0       4065   hal_gpio.o
+       108         12          0          0          0       1482   hal_misc.o
+        24          0          0          0          0        904   hal_opamp.o
+        84         18          0          0          0       1730   hal_rcc.o
+       894         24          0          0          0      10563   hal_tim.o
+       464         46          0          0          0     101092   main.o
+       744        106          0          4          0      14928   mm32_it.o
+      3310        252          0         14        144      13407   motor_control.o
+        40         14        192          0       1024        696   startup_mm32spin0230_keil.o
+       240         22          0          4          0       2575   system_mm32spin0230.o
+       172         26          0          0          0      10048   systick.o
+      2192        248          0         64         76      12778   user_control.o
 
     ----------------------------------------------------------------------
-     13032       1090        224        100       1352     218384   Object Totals
+     13032       1090        224        100       1352     221240   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         28          0          0          2          0          0   (incl. Padding)
 
@@ -1917,8 +1917,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     17136       1230        224        152       1640     212172   Grand Totals
-     17136       1230        224        152       1640     212172   ELF Image Totals
+     17136       1230        224        152       1640     215028   Grand Totals
+     17136       1230        224        152       1640     215028   ELF Image Totals
      17136       1230        224        152          0          0   ROM Totals
 
 ==============================================================================
