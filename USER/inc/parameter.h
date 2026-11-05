@@ -274,20 +274,22 @@
 #define LIMIT_PEAK_CURRENT_AdcValue         (u16)(LIMIT_PEAK_CURRENT*CURRENT_ADC_PER_A)
 
 
-#define LIMIT_AVG_CURRENT_EN               (0)
-#define LIMIT_AVG_CURRENT4                  (35.0f)
+/* Average bus-current regulation target, unit: A. */
+#define CONSTANT_BUS_CURRENT                (30.0f)
+#define LIMIT_AVG_CURRENT_EN               (1)
+#define LIMIT_AVG_CURRENT4                  CONSTANT_BUS_CURRENT
 #define LIMIT_AVG_CURRENT4_AdcValue         (u16)(LIMIT_AVG_CURRENT4*CURRENT_ADC_PER_A)
 
-#define LIMIT_AVG_CURRENT3                 (35.0f)
+#define LIMIT_AVG_CURRENT3                 CONSTANT_BUS_CURRENT
 #define LIMIT_AVG_CURRENT3_AdcValue         (u16)(LIMIT_AVG_CURRENT3*CURRENT_ADC_PER_A)
 
-#define LIMIT_AVG_CURRENT2                  (25.0f)
+#define LIMIT_AVG_CURRENT2                  CONSTANT_BUS_CURRENT
 #define LIMIT_AVG_CURRENT2_AdcValue         (u16)(LIMIT_AVG_CURRENT2*CURRENT_ADC_PER_A)
 
-#define LIMIT_AVG_CURRENT1                  (15.0f)
+#define LIMIT_AVG_CURRENT1                  CONSTANT_BUS_CURRENT
 #define LIMIT_AVG_CURRENT1_AdcValue         (u16)(LIMIT_AVG_CURRENT1*CURRENT_ADC_PER_A)
 
-#define LIMIT_AVG_CURRENT_CCW                  (36.0f)
+#define LIMIT_AVG_CURRENT_CCW                  CONSTANT_BUS_CURRENT
 #define LIMIT_AVG_CURRENT_AdcValue_CCW         (u16)(LIMIT_AVG_CURRENT_CCW*CURRENT_ADC_PER_A)
 
 
