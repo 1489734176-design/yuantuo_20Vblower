@@ -400,8 +400,8 @@
 #define MOS_TEMP_OVER_TIME     					50  			/* 单位：ms */
 #define RSM_MOS_TEMP_OVER_TIME 					500  			/* 单位：ms */
 /* 将用户设定值转换为ADC采样值 */
-#define MOS_TEMP_OVER_RES_RATIO					(float)(RT_95_F/(RT_95_F +MOS_TEMP_UP_RES)) 								// 分压比(下拉电阻/(上拉电阻+下拉电阻)) 需求表: 95±5℃
-#define RSM_MOS_TEMP_OVER_RES_RATIO			(float)(RT_85_F/(RT_85_F + MOS_TEMP_UP_RES)) 				// 分压比(下拉电阻/(上拉电阻+下拉电阻)) 需求表: 恢复 85±5℃
+#define MOS_TEMP_OVER_RES_RATIO					(float)(RT_120_F/(RT_120_F +MOS_TEMP_UP_RES)) 								// 分压比(下拉电阻/(上拉电阻+下拉电阻)) 需求表: 95±5℃
+#define RSM_MOS_TEMP_OVER_RES_RATIO			(float)(RT_115_F/(RT_115_F + MOS_TEMP_UP_RES)) 				// 分压比(下拉电阻/(上拉电阻+下拉电阻)) 需求表: 恢复 85±5℃
 #define MOS_TEMP_OVER_THD_ADC       		(u16)(MOS_TEMP_OVER_RES_RATIO * MOS_TEMP_UP_VOL * ADC_REF_VALUE / ADC_REFV)			// 稳态过温保护阈值
 #define RSM_MOS_TEMP_OVER_THD_ADC   		(u16)(RSM_MOS_TEMP_OVER_RES_RATIO * MOS_TEMP_UP_VOL * ADC_REF_VALUE / ADC_REFV)	// 恢复过温保护阈值
 
